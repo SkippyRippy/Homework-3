@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  
+  <!-- AND/OR YOUR OWN CSS -->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="index.css">
+
+</head>
+<!--limit to 8 cats-->
+<body>
+
+  <link rel="text/javascript" href="index.js">
+  <script type="text/javascript" src="index.js"></script>
+  <div class = "Title">
+    Try Your Luck! Name That Cat!
+  </div>
+  <div class = "Pictures1">
+    <img class = "Pic" src= "bengal.jpg">
+    <img class = "Pic" src= "munchkin.png">
+    <img class = "Pic" src= "persian.jpg">
+    <img class = "Pic" src= "russianBlue.png">
+  </div>
+  <div class = "Pictures2">
+    <img class = "Pic" src= "scottishFold.jpg">
+    <img class = "Pic" src= "siamese.jpg">
+    <img class = "Pic" src= "tabby.jpg">
+    <img class = "Pic" src= "maineCoon.jpg">
+  </div>
+  <div class = "Instructions">
+    <p>You get 10 strikes before you lose. Try to guess the correct letters before that happens!</p>
+    <p>(Hint: All the cats are pictured)</p>
+  </div>
+  <div class="hangman">
+      <div class="guess"></div>
+      <form class="guessForm">
+      <input type="text" class="guessLetter" maxlength="1"  placeholder="Enter a letter . . . &#x23ce;"/> <button type="submit" class="guessButton">Guess</button>
+      </form>
+      <div class="wrong">
+          <div class="wrongLetters"></div>
+        </div>
+        <div class="message">
+          <h1 class="title"></h1>
+          <p class="text"></p>
+          <button class="restart button">Play Again?</button>
+        </div>
+      </div>
+  
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+body {
+    background-color: aquamarine;
+  }
+  .Pic {
+    max-width: 300px;
+    float: left;
+  }
+  .Title {
+    font-size: 48px;
+  }
